@@ -1,0 +1,37 @@
+.card-title {
+    color: #656976;
+    font-weight: 300;
+    font-stretch: expanded
+}
+
+.btn-create {
+    background: #27ccc0;
+    color: #fff;
+    margin-left: 10px
+}
+
+.btn-create:hover {
+    background: #fff;
+    color: #27ccc0;
+    border-color: #27ccc0;
+    margin-left: 10px
+}
+
+.m-l-btn {
+    margin-left: 18%
+}
+@media (min-width: 1366px) {
+    .m-l-btn {
+        margin-left: 13%
+    }
+}
+@media (min-width: 1600px) {
+    .m-l-btn {
+        margin-left: 30%
+    }
+}
+@media (min-width: 1920px) {
+    .m-l-btn {
+        margin-left: 46%
+    }
+}
