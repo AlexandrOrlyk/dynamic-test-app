@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <div className='row'>
+      <div className='row containerqw'>
         <Sidebar />
         <Components />
       </div>

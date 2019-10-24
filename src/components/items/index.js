@@ -1,14 +1,14 @@
 import React from 'react';
 import ValidationError from '../blog/error'
 
-const Items = ({ items, id, showComments, pressDelete, onChange, pickerClose, handleSubmit, error }) => {
+const Items = ({ items, id, showComments, pressDelete, onChange,  handleSubmit, error }) => {
 
-    
+
 
     console.log('id', id)
 
     return (
-        <div className="col-md-6" onClick={pickerClose}>
+        <div className="col-md-6">
             <div className="card">
                 <div className="card-body">
                     <form onSubmit={handleSubmit}>
@@ -28,8 +28,7 @@ const Items = ({ items, id, showComments, pressDelete, onChange, pickerClose, ha
 
                     </form>
                     {items.map((i, index) => {
-                        return (
-                            console.log('index', index),
+                        return (                            
                             <div key={index} className={`row item-position ${id === index && "left-red-vertical-line"}`} >
                                 <div onClick={() => showComments(index)} className="col-md-8">
                                     {i.name}{' '}

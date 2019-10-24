@@ -15,7 +15,7 @@ const Comments = ({ items, comment, id, background, onChange, onKeyDown, onChang
                             <div key={index} className="row" style={{ marginTop: 15 }}>
                                 <div className="col-md-2">
 
-                                    <div style={{ minHeight: 60, width: '100%', backgroundColor: comment.background }}></div>
+                                    <div style={{ minHeight: 60, width: 60, backgroundColor: comment.background }}></div>
                                 </div>
                                 <div className="col-md-10">
                                     {comment.comment}

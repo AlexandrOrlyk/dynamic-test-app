@@ -1,0 +1,1228 @@
+(this["webpackJsonpdynamic-app"] = this["webpackJsonpdynamic-app"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".App {\n  text-align: center;\n}\n\n.App-logo {\n  height: 40vmin;\n}\n\n.App-header {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #09d3ac;\n}\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/blog/blog.css":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/blog/blog.css ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".card-title {\r\n    color: #656976;\r\n    font-weight: 300;\r\n    font-stretch: expanded\r\n}\r\n\r\n.btn-create {\r\n    background: #27ccc0;\r\n    color: #fff;\r\n    margin-left: 10px\r\n}\r\n\r\n.btn-delete {\r\n    background: #fff;\r\n    color: #ff5074;\r\n    border-color: #ff5074;\r\n    padding: 5px 30px;\r\n}\r\n\r\n.btn-delete:hover {\r\n    background: #ff5074;\r\n    color: #fff;\r\n    padding: 5px 30px;\r\n}\r\n\r\n.item-position {\r\n    margin-top: 25px;\r\n    margin-bottom: -5px;\r\n    border-bottom: '1px solid #fafafa'\r\n}\r\n\r\n.avatar-color-red {\r\n    background-color: #cab37f!important\r\n}\r\n\r\n.avatar-color-blue {\r\n    background-color: blue!important\r\n}\r\n\r\n.btn-create:hover {\r\n    background: #fff;\r\n    color: #27ccc0;\r\n    border-color: #27ccc0;\r\n    margin-left: 10px\r\n}\r\n\r\n.badge-success-light {\r\n    background: #27ccc0;\r\n    color: #fff;\r\n    padding: 3px 12px;\r\n}\r\n\r\n.m-l-btn {\r\n    margin-left: 18%\r\n}\r\n\r\n.left-red-vertical-line {\r\n    margin-left: -20px;\r\n    border-left: 5px solid #ff5074\r\n}\r\n\r\n.input-settings {\r\n    height: 100px\r\n}\r\n\r\n.modal-body {\r\n    padding: 0;\r\n}\r\n.modal-footer {    \r\n    padding: 5px;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n    .modal-dialog {\r\n        max-width: 222px;\r\n        margin: 1.75rem auto;\r\n    }\r\n}\r\n\r\n@media (min-width: 1366px) {\r\n    .m-l-btn {\r\n        margin-left: 13%\r\n    }\r\n}\r\n\r\n@media (min-width: 1600px) {\r\n    .m-l-btn {\r\n        margin-left: 30%\r\n    }\r\n}\r\n\r\n@media (min-width: 1920px) {\r\n    .m-l-btn {\r\n        margin-left: 46%\r\n    }\r\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/comments/comment.css":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/comments/comment.css ***!
+  \************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".validation-err {\r\n    color: #ff5074;\r\n    display: flex;\r\n    margin-top: 5px\r\n}\r\n\r\ndiv img.warning-icon {\r\n    width: 15px;\r\n    height: 15px;\r\n    margin: 3px 5px\r\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\n    monospace;\n}\n\n.m-t-xl{\n  margin-top: 15px;\n}\n\n.m-t-xxl{\n  margin-top: 30px;\n}\n\n.m-l-xl{\n  margin-left: 20px;\n}\n\n.p-l-xl{\n  padding-left: 35px;\n}\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/layout/sidebar.css":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/layout/sidebar.css ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".sidebar {\r\n    min-height: 1000px;\r\n    background: #2b2f3e\r\n}\r\n\r\n\r\n.title {\r\n    color: #fff;\r\n    font-size: 1.8rem;\r\n    text-transform: uppercase;   \r\n    font-weight: 100;\r\n    font-stretch: expanded\r\n}\r\n\r\n.subtitle{\r\n    font-size: 1.1rem;\r\n    color: #696a6e\r\n}", ""]);
+
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layout */ "./src/layout/index.js");
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components */ "./src/components/index.js");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "E:\\projects\\tz\\dynamic-app\\src\\App.js";
+
+
+
+
+
+function App() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  })));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/components/blog/blog.css":
+/*!**************************************!*\
+  !*** ./src/components/blog/blog.css ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./blog.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/blog/blog.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./blog.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/blog/blog.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./blog.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/blog/blog.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/blog/error.js":
+/*!**************************************!*\
+  !*** ./src/components/blog/error.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _img_warning_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/warning.png */ "./src/img/warning.png");
+/* harmony import */ var _img_warning_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_img_warning_png__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "E:\\projects\\tz\\dynamic-app\\src\\components\\blog\\error.js";
+
+
+
+const ValidationError = () => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "validation-err",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _img_warning_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    alt: "warning.png",
+    className: "warning-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }, "Please, fill in form field"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ValidationError);
+
+/***/ }),
+
+/***/ "./src/components/blog/index.js":
+/*!**************************************!*\
+  !*** ./src/components/blog/index.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _blog_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./blog.css */ "./src/components/blog/blog.css");
+/* harmony import */ var _blog_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_blog_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _comments__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../comments */ "./src/components/comments/index.js");
+/* harmony import */ var _items__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../items */ "./src/components/items/index.js");
+var _jsxFileName = "E:\\projects\\tz\\dynamic-app\\src\\components\\blog\\index.js";
+
+
+
+
+
+class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    this.toggle = () => {
+      this.setState({
+        modal: !this.state.modal
+      });
+    };
+
+    this.handleChangeComplete = color => {
+      this.setState({
+        background: color.hex
+      });
+    };
+
+    this.additem = newitem => {
+      let items = [...this.state.items, newitem];
+      localStorage.setItem('items', JSON.stringify(items));
+      this.setState({
+        items
+      });
+    };
+
+    this.pressDelete = (i, index) => {
+      console.log('i', i);
+      const items = this.state.items.filter((u, index) => i !== index);
+      console.log('items', items);
+      localStorage.setItem('items', JSON.stringify(items));
+      this.setState({
+        items,
+        id: this.state.id
+      });
+    };
+
+    this.handleSubmit = e => {
+      const name = this.state.name;
+      e.preventDefault();
+
+      if (name.trim().length === 0) {
+        this.setState({
+          erroritem: true
+        });
+        return;
+      }
+
+      this.additem({
+        name: name,
+        comments: []
+      });
+      this.setState({
+        name: '',
+        erroritem: false
+      });
+      e.target.reset();
+    };
+
+    this.onHandleChange = e => {
+      this.setState({
+        [e.target.name]: e.target.value
+      });
+    };
+
+    this.showComments = index => {
+      this.setState({
+        id: index
+      });
+    };
+
+    this.commentAdd = () => {
+      const _this$state = this.state,
+            id = _this$state.id,
+            comment = _this$state.comment,
+            items = _this$state.items,
+            background = _this$state.background;
+      const newItems = [...items]; //неповна копія
+
+      newItems[id].comments = [...items[id].comments, {
+        comment: comment,
+        background: background
+      }];
+      localStorage.setItem('items', JSON.stringify(newItems));
+      this.setState({
+        items: newItems
+      });
+    };
+
+    this.commentHandleSubmit = () => {
+      const _this$state2 = this.state,
+            comment = _this$state2.comment,
+            background = _this$state2.background;
+
+      if (comment.trim().length === 0) {
+        this.setState({
+          error: true
+        });
+        return;
+      }
+
+      this.commentAdd({
+        comment,
+        background
+      });
+      this.setState({
+        comment: '',
+        background: '#20c997',
+        error: false
+      });
+    };
+
+    const _items = JSON.parse(localStorage.getItem('items'));
+
+    this.state = {
+      id: _items ? 0 : null,
+      items: _items ? _items : [],
+      name: '',
+      comment: '',
+      avatarColors: '',
+      background: '#20c997',
+      modal: false,
+      error: false,
+      erroritem: false
+    };
+  }
+
+  render() {
+    const _this$state3 = this.state,
+          items = _this$state3.items,
+          id = _this$state3.id,
+          comment = _this$state3.comment,
+          background = _this$state3.background,
+          isOpen = _this$state3.isOpen,
+          error = _this$state3.error,
+          erroritem = _this$state3.erroritem,
+          modal = _this$state3.modal;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "row",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 131
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_items__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      showComments: this.showComments,
+      items: items,
+      id: id,
+      pressDelete: this.pressDelete,
+      handleSubmit: this.handleSubmit,
+      onChange: this.onHandleChange,
+      pickerClose: this.pickerClose,
+      error: erroritem,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 133
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_comments__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      items: items,
+      id: id,
+      isOpen: isOpen,
+      comment: comment,
+      onChange: this.onHandleChange,
+      onKeyDown: e => {
+        if (e.ctrlKey && e.keyCode === 13) this.commentHandleSubmit();
+      },
+      onChangeComplete: this.handleChangeComplete,
+      background: background,
+      color: background,
+      error: error,
+      modal: modal,
+      toggle: this.toggle,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 144
+      },
+      __self: this
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Blog);
+
+/***/ }),
+
+/***/ "./src/components/comments/comment.css":
+/*!*********************************************!*\
+  !*** ./src/components/comments/comment.css ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./comment.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/comments/comment.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./comment.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/comments/comment.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./comment.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/comments/comment.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/comments/index.js":
+/*!******************************************!*\
+  !*** ./src/components/comments/index.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_color__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-color */ "./node_modules/react-color/lib/index.js");
+/* harmony import */ var react_color__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_color__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _comment_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./comment.css */ "./src/components/comments/comment.css");
+/* harmony import */ var _comment_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_comment_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _blog_error__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../blog/error */ "./src/components/blog/error.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+var _jsxFileName = "E:\\projects\\tz\\dynamic-app\\src\\components\\comments\\index.js";
+
+
+
+
+
+
+const Comments = ({
+  items,
+  comment,
+  id,
+  background,
+  onChange,
+  onKeyDown,
+  onChangeComplete,
+  color,
+  error,
+  modal,
+  toggle
+}) => {
+  return items.length !== id && items.length > 0 && id !== null && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "card-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  }, "Coments #", id + 1), items[id] && items[id].comments.map((comment, index) => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    key: index,
+    className: "row",
+    style: {
+      marginTop: 15
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      minHeight: 60,
+      width: '100%',
+      backgroundColor: comment.background
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  }, comment.comment))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    style: {
+      marginTop: 15
+    },
+    onKeyDown: onKeyDown,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    onClick: toggle,
+    style: {
+      minHeight: 60,
+      width: 60,
+      backgroundColor: background
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Modal"], {
+    isOpen: modal,
+    toggle: toggle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ModalBody"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_color__WEBPACK_IMPORTED_MODULE_1__["SketchPicker"], {
+    color: color,
+    onChangeComplete: onChangeComplete,
+    triangle: "hide",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: undefined
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ModalFooter"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-create",
+    onClick: toggle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: undefined
+  }, "  Ok")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "input-group",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+    name: "comment",
+    autoComplete: "off",
+    type: "message",
+    value: comment,
+    className: "form-control",
+    placeholder: "Type comment here and pres Ctrl+Enter to send a comment",
+    onChange: onChange,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: undefined
+  })), error && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_blog_error__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: undefined
+  }))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Comments);
+
+/***/ }),
+
+/***/ "./src/components/index.js":
+/*!*********************************!*\
+  !*** ./src/components/index.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _blog__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./blog */ "./src/components/blog/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "E:\\projects\\tz\\dynamic-app\\src\\components\\index.js";
+
+
+
+const Components = () => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  className: "col-sm-12 col-md-9 m-t-xxl",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_blog__WEBPACK_IMPORTED_MODULE_0__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Components);
+
+/***/ }),
+
+/***/ "./src/components/items/index.js":
+/*!***************************************!*\
+  !*** ./src/components/items/index.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _blog_error__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../blog/error */ "./src/components/blog/error.js");
+var _jsxFileName = "E:\\projects\\tz\\dynamic-app\\src\\components\\items\\index.js";
+
+
+
+const Items = ({
+  items,
+  id,
+  showComments,
+  pressDelete,
+  onChange,
+  pickerClose,
+  handleSubmit,
+  error
+}) => {
+  console.log('id', id);
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6",
+    onClick: pickerClose,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    onSubmit: handleSubmit,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "card-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }, "Items"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "input-group",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    name: "name",
+    autoComplete: "off",
+    type: "text",
+    className: "form-control",
+    placeholder: "Type name here...",
+    onChange: onChange,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-create col-md-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: undefined
+  }, "Add new")), error && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_blog_error__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: undefined
+  })), items.map((i, index) => {
+    return console.log('index', index), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      key: index,
+      className: "row item-position ".concat(id === index && "left-red-vertical-line"),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33
+      },
+      __self: undefined
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      onClick: () => showComments(index),
+      className: "col-md-8",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: undefined
+    }, i.name, ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      className: "badge badge-pill badge-success-light",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: undefined
+    }, i.comments.length)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "col-md-4",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: undefined
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      className: "btn  btn-delete m-l-btn",
+      onClick: () => pressDelete(index),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: undefined
+    }, "Delete")));
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Items);
+
+/***/ }),
+
+/***/ "./src/img/warning.png":
+/*!*****************************!*\
+  !*** ./src/img/warning.png ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/warning.9b8ed20c.png";
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+var _jsxFileName = "E:\\projects\\tz\\dynamic-app\\src\\index.js";
+
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_5__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/layout/index.js":
+/*!*****************************!*\
+  !*** ./src/layout/index.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _sidebar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sidebar */ "./src/layout/sidebar.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (_sidebar__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+/***/ }),
+
+/***/ "./src/layout/sidebar.css":
+/*!********************************!*\
+  !*** ./src/layout/sidebar.css ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./sidebar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/layout/sidebar.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./sidebar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/layout/sidebar.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./sidebar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/layout/sidebar.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/layout/sidebar.js":
+/*!*******************************!*\
+  !*** ./src/layout/sidebar.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _sidebar_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sidebar.css */ "./src/layout/sidebar.css");
+/* harmony import */ var _sidebar_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sidebar_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "E:\\projects\\tz\\dynamic-app\\src\\layout\\sidebar.js";
+
+
+
+const Sidebar = () => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2 sidebar p-l-xl",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "title m-t-xl",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }, "dairy app"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "subtitle ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }, "Comment with no sense"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Sidebar);
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+const isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.1/8 is considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) {}
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(registration => {
+    registration.onupdatefound = () => {
+      const installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = () => {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(error => {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl).then(response => {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    const contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(() => {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 0:
+/*!**********************************************************************************!*\
+  !*** multi ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! E:\projects\tz\dynamic-app\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! E:\projects\tz\dynamic-app\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[0,"runtime-main",1]]]);
+//# sourceMappingURL=main.chunk.js.map
