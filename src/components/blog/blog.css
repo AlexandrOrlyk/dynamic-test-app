@@ -9,6 +9,36 @@
     color: #fff;
     margin-left: 10px
 }
+.sketch-picker{
+    position: absolute;
+    z-index: 9999
+}
+
+.btn-delete {
+    background: #fff;
+    color: #ff5074;
+    border-color: #ff5074;
+    padding: 5px 30px;
+}
+
+.btn-delete:hover {
+    background: #ff5074;
+    color: #fff;
+    padding: 5px 30px;
+}
+
+.item-position {
+    margin-top: 25px;
+    margin-bottom: -5px;
+    border-bottom: '1px solid #fafafa'
+}
+
+.avatar-color-red{
+    background-color: #cab37f!important
+}
+.avatar-color-blue{
+    background-color:blue!important
+}
 
 .btn-create:hover {
     background: #fff;
@@ -17,19 +47,39 @@
     margin-left: 10px
 }
 
+.badge-success-light {
+    background: #27ccc0;
+    color: #fff;
+    padding: 3px 12px;
+}
+
 .m-l-btn {
     margin-left: 18%
 }
+
+.left-red-vertical-line {
+    margin-left: -20px;
+    border-left: 5px solid #ff5074
+}
+
+.input-settings{
+    height: 100px
+}
+
 @media (min-width: 1366px) {
     .m-l-btn {
         margin-left: 13%
     }
 }
+
+
+
 @media (min-width: 1600px) {
     .m-l-btn {
         margin-left: 30%
     }
 }
+
 @media (min-width: 1920px) {
     .m-l-btn {
         margin-left: 46%
