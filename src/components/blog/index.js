@@ -43,15 +43,18 @@ class Blog extends React.Component {
         });
     }
 
-    pressDelete = (i) => {
-        const items = this.state.items.filter((u, index) => {
-            return index !== i;
-        });
+    pressDelete = (i, index) => {
+
+        console.log('i', i)
+        
+        const items = this.state.items.filter((u, index)=>  i !== index)
+       
+        console.log('items', items)
 
         localStorage.setItem('items', JSON.stringify(items));
 
         this.setState({
-            items
+            items, id:this.state.id
         });
     }
 
@@ -82,14 +85,13 @@ class Blog extends React.Component {
         });
     }
 
-    showComments = (index) => {
+    showComments = (index) => {  
         this.setState({ id: index });
-
+        
     }
 
     commentAdd = () => {
         const { id, comment, items, background } = this.state;
-
 
         const newItems = [...items]; //неповна копія
         newItems[id].comments = [...items[id].comments, { comment: comment, background: background }];
