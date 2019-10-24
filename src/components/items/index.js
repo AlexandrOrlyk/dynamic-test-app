@@ -1,6 +1,11 @@
-import React from 'react'
+import React from 'react';
+import ValidationError from '../blog/error'
 
-const Items = ({ items, id, showComments, pressDelete, onChange, pickerClose, handleSubmit }) => {
+const Items = ({ items, id, showComments, pressDelete, onChange, pickerClose, handleSubmit, error }) => {
+    
+
+    console.log('er', error)
+
     return (
         <div className="col-md-6" onClick={pickerClose}>
             <div className="card">
@@ -15,18 +20,21 @@ const Items = ({ items, id, showComments, pressDelete, onChange, pickerClose, ha
                                 className="form-control"
                                 placeholder="Type name here..."
                                 onChange={onChange} />
-                            <button className='btn btn-create col-md-3'>Add new</button>
+                            <button className='btn btn-create col-md-3'>Add new</button> 
+                                                   
                         </div>
+                        {error && <ValidationError />}  
+
                     </form>
                     {items.map((i, index) =>
 
                         <div key={index} className={`row item-position ${id === index && "left-red-vertical-line"}`} >
-                            <div onClick={showComments} className="col-md-8">
+                            <div onClick={() => showComments(index)} className="col-md-8">
                                 {i.name}{' '}
                                 <span className="badge badge-pill badge-success-light">{i.comments.length}</span>
                             </div>
                             <div className="col-md-4" >
-                                <button className='btn  btn-delete m-l-btn' onClick={pressDelete}>Delete</button>
+                                <button className='btn  btn-delete m-l-btn' onClick={() => pressDelete(index)}>Delete</button>
                             </div>
                         </div>
                     )}

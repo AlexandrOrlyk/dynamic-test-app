@@ -1,0 +1,11 @@
+.validation-err {
+    color: #ff5074;
+    display: flex;
+    margin-top: 5px
+}
+
+div img.warning-icon {
+    width: 15px;
+    height: 15px;
+    margin: 3px 5px
+}

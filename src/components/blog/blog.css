@@ -9,10 +9,6 @@
     color: #fff;
     margin-left: 10px
 }
-.sketch-picker{
-    position: absolute;
-    z-index: 9999
-}
 
 .btn-delete {
     background: #fff;
@@ -33,11 +29,12 @@
     border-bottom: '1px solid #fafafa'
 }
 
-.avatar-color-red{
+.avatar-color-red {
     background-color: #cab37f!important
 }
-.avatar-color-blue{
-    background-color:blue!important
+
+.avatar-color-blue {
+    background-color: blue!important
 }
 
 .btn-create:hover {
@@ -62,8 +59,22 @@
     border-left: 5px solid #ff5074
 }
 
-.input-settings{
+.input-settings {
     height: 100px
+}
+
+.modal-body {
+    padding: 0;
+}
+.modal-footer {    
+    padding: 5px;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 222px;
+        margin: 1.75rem auto;
+    }
 }
 
 @media (min-width: 1366px) {
@@ -71,8 +82,6 @@
         margin-left: 13%
     }
 }
-
-
 
 @media (min-width: 1600px) {
     .m-l-btn {

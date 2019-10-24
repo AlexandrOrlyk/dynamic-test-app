@@ -1,6 +1,5 @@
 import React from 'react';
 import './blog.css';
-import { SketchPicker } from 'react-color';
 import Comments from '../comments'
 import Items from '../items'
 
@@ -19,22 +18,17 @@ class Blog extends React.Component {
             comment: '',
             avatarColors: '',
             background: '#20c997',
-            isOpen: false,
-            error: false
+            modal: false,
+            error: false,
+            erroritem: false
         }
     }
 
-    pickerShow = () => {
-        this.setState({
-            isOpen: !this.state.isOpen
-        })
-    }
-
-    pickerClose = () => {
-        this.setState({
-            isOpen: false
-        })
-    }
+    toggle = () => {
+		this.setState({
+			modal: !this.state.modal,
+		});
+	}
 
     handleChangeComplete = (color) => {
         this.setState({ background: color.hex });
@@ -64,9 +58,19 @@ class Blog extends React.Component {
     handleSubmit = (e) => {
         const { name } = this.state;
         e.preventDefault();
+
+        if (name.trim().length === 0) {
+            this.setState({ erroritem: true });
+            return;
+        }
         this.additem({
             name: name,
             comments: []
+        });
+
+        this.setState({
+            name: '',
+            erroritem: false
         });
         e.target.reset();
 
@@ -79,7 +83,6 @@ class Blog extends React.Component {
     }
 
     showComments = (index) => {
-        console.log('asdasdsa', index)
         this.setState({ id: index });
 
     }
@@ -98,141 +101,60 @@ class Blog extends React.Component {
         });
     }
 
-    commentHandleSubmit = (e) => {
-        const { comment, background, error } = this.state;
+    commentHandleSubmit = () => {
+        const { comment, background } = this.state;
+        if (comment.trim().length === 0) {
+            this.setState({ error: true });
+            return;
+        }
+
         this.commentAdd({
             comment,
-            background,
-            error
+            background
         });
         this.setState({
-            comment: ''
+            comment: '',
+            background: '#20c997',
+            error: false
+           
         });
     }
 
 
     render() {
 
-        const { items, id, comment, background, isOpen } = this.state;
-
+        const { items, id, comment, background, isOpen, error, erroritem,modal } = this.state;
 
         return (
-            <div className='row'>
+            <div className='row'>               
 
-                {/* <div className="col-md-6" onClick={this.pickerClose}>
-                    <div className="card">
-                        <div className="card-body">
-                            <form onSubmit={this.handleSubmit}>
-                                <h3 className="card-title">Items</h3>
-                                <div className="input-group">
-                                    <input
-                                        name="name"
-                                        autoComplete="off"
-                                        type="text"
-                                        className="form-control"
-                                        placeholder="Type name here..."
-                                        onChange={this.onHandleChange} />
-                                    <button className='btn btn-create col-md-3'>Add new</button>
-                                </div>
-                            </form>
-                            {items.map((i, index) =>
+                <Items
+                    showComments={this.showComments}
+                    items={items}
+                    id={id}
+                    pressDelete={this.pressDelete}
+                    handleSubmit={this.handleSubmit}
+                    onChange={this.onHandleChange}
+                    pickerClose={this.pickerClose}
+                    error={erroritem}
+                />
 
-                                <div key={index} className={`row item-position ${id === index && "left-red-vertical-line"}`} >
-                                    <div onClick={() => this.showComments(index)} className="col-md-8">
-                                        {i.name}{' '}
-                                        <span className="badge badge-pill badge-success-light">{i.comments.length}</span>
-                                    </div>
-                                    <div className="col-md-4" >
-                                        <button className='btn  btn-delete m-l-btn' onClick={() => this.pressDelete(index)}>Delete</button>
-                                    </div>
-                                </div>
-                            )}
-                        </div>
-                    </div>
-                </div> */}
-                
-                <Items 
-                showComments={() => this.showComments()}
-                items={items}
-                 id={id}  
-                 pressDelete={() => this.pressDelete(id)} 
-                 handleSubmit={this.handleSubmit}
-                 onChange={this.onHandleChange}
-                 pickerClose={this.pickerClose}
-                 />
-                
                 <Comments
                     items={items}
                     id={id}
-                    onClick={this.pickerClose}
-                    pickerShow={this.pickerShow}
-                    isOpen={isOpen} 
+                    isOpen={isOpen}
                     comment={comment}
-                    onChange={this.onHandleChange} 
+                    onChange={this.onHandleChange}
                     onKeyDown={(e) => {
-                        if (comment.length > 0 && e.ctrlKey && e.keyCode === 13) this.commentHandleSubmit();
+                        if (e.ctrlKey && e.keyCode === 13) this.commentHandleSubmit();
                     }}
-                    onChangeComplete={this.handleChangeComplete}  
-                    background={background}   
-                    color={background}             
+                    onChangeComplete={this.handleChangeComplete}
+                    background={background}
+                    color={background}
+                    error={error}
+                    modal={modal}
+                    toggle={this.toggle}
                 />
-
-                {/* {items.length > 0 && id !== null && (
-                    <div className="col-md-6">
-                        <div className="card">
-                            <div className="card-body">
-                                <form >
-                                    <h3 className="card-title" onClick={this.pickerClose}>Coments #{id + 1}</h3>
-                                </form>
-
-                                {items[id].comments.map((comment, index) =>
-                                    <div key={index} className="row" style={{ marginTop: 15 }} onClick={this.pickerClose}>
-                                        <div className="col-md-2">
-
-                                            <div style={{ minHeight: 60, width: '100%', backgroundColor: comment.background }}></div>
-                                        </div>
-                                        <div className="col-md-10">
-                                            {comment.comment}
-                                        </div>
-                                    </div>
-                                )}
-
-                                <div className='row' style={{ marginTop: 15 }}>
-                                    <div className="col-md-2">
-                                        <div onClick={this.pickerShow} style={{
-                                            minHeight: 60, width: '100%', backgroundColor: background
-                                        }}>
-
-                                        </div>
-                                        {this.state.isOpen && <SketchPicker
-                                            color={background}
-                                            onChangeComplete={this.handleChangeComplete}
-                                            triangle='hide'
-
-
-                                        ><button className="btn" >Add</button></SketchPicker>}
-                                    </div>
-                                    <div className="col-md-10">
-                                        <div className="input-group">
-                                            <textarea
-                                                onKeyDown={(e) => {
-                                                    if (comment.length > 0 && e.ctrlKey && e.keyCode === 13) this.commentHandleSubmit();
-                                                }}
-                                                onClick={this.pickerClose}
-                                                name="comment"
-                                                autoComplete="off"
-                                                type="message"
-                                                value={comment}
-                                                className="form-control"
-                                                placeholder="Type name here..."
-                                                onChange={this.onHandleChange} />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                )} */}
 
             </div>
         )
