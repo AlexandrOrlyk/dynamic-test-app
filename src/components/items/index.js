@@ -1,11 +1,7 @@
 import React from 'react';
 import ValidationError from '../blog/error'
 
-const Items = ({ items, id, showComments, pressDelete, onChange,  handleSubmit, error }) => {
-
-
-
-    console.log('id', id)
+const Items = ({ items, id, showComments, pressDelete, onChange,  handleSubmit, error }) => {   
 
     return (
         <div className="col-md-6">

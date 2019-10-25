@@ -44,13 +44,8 @@ class Blog extends React.Component {
     }
 
     pressDelete = (i, index) => {
-
-        console.log('i', i)
         
         const items = this.state.items.filter((u, index)=>  i !== index)
-       
-        console.log('items', items)
-
         localStorage.setItem('items', JSON.stringify(items));
 
         this.setState({
